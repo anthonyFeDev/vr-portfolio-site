@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <title>Virtual Reality</title>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <img id="room" src="/assets/room-background-image.jpeg" alt="" />
+      </a-assets>
+      <a-sky src="#room" rotation="0 -90"></a-sky>
+      <a-entity
+        text="value: Anthony Ruffin; color: #BBB;"
+        position="1.07 1.4 -2"
+        scale="3.5 3.5 3.5"
+      ></a-entity>
+      <a-entity
+        text="value: Developer. Designer. QA; color: #BBB;"
+        position=".5 1.2 -2"
+        scale="2.5 2.5 2.5" 
+      ></a-entity>
+      <a-entity
+        text="value: Click and drag your mouse to view portfolio;"
+        position="-.1 .4 -2"
+        scale="1.5 1.5 1.5" 
+      ></a-entity>
+      <a-entity
+        text="value: New area to show;"
+        position="8 .4 -9"
+        scale="4.5 4.5 4.5" 
+      ></a-entity>
+    </a-scene>
+  </body>
+</html>
